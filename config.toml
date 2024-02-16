@@ -1,0 +1,13 @@
+title = "Config File"
+# Resolution controls target final scale
+resolution = "1920:1080"
+# Quality governs variable bitrate. Lower numbers mean higher quality, higher numbers mean smaller files
+# Suggested values are 18-23, sane range is 17-28, 0 is lossless
+quality = 20 
+# Preset controls compression efficiency.
+# Values are ultrafast, superfast, veryfast, faster, fast, medium, slow, slower, veryslow, placebo (Do not use placebo)
+preset = "slow"
+# Copy audio means the audio will not be encoded
+copyAudio = true
+# Fast start is for videos meant to be viewed in a browser
+fastStart = true
